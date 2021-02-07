@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <script src="./quick.js"></script> -->
+  <script src="./count.js"></script>
+  
+
+  <!-- 
+  <script src="./bubble.js"></script> -->
+  <!-- <script src="./selectSort.js"></script> -->
+  <!-- <script src="./binarySearch.js"></script> -->
+  <!-- <script src="./insertSort.js"></script> -->
+</head>
+<script>
+  function input() {
+    document.getElementById('div1').innerHTML = 0
+    let i = 0
+    setInterval(() => {
+      if (i > 1000) {
+        clearInterval()
+        window.open('http://127.0.0.1:5500/src/algorithm/queue/queue.html', '_blank')
+        return
+      }
+      i++
+      document.getElementById('div1').innerHTML = i
+    })
+  }
+  
+</script>
+<body>
+  <button onclick="input()">点击</button>
+  <div id="div1"></div>
+  <a href="www.baidu.com" name="link">百度</a>
+  <img src="" name="img">
+  <area shape="" coords="" href="" alt="" name="area">
+  <applet name="test">test</applet>
+  <form action="" name="form"></form>
+  <embed src="" type="" name="embed">
+    <script>
+
+    </script>
+</body>
+</html>
