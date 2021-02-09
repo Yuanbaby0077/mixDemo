@@ -2,17 +2,40 @@ interface UserInfo {
   name: string,
   age: number,
   hobby?: Array<any>,
-  readonly cardId: number
+  readonly cardId: number,
+  sayHello(): void,
+  gender: String
 }
 
-function getUser(user: UserInfo) {
-  return `${user.name} is ${user.age} years old, and cardId is ${user.cardId}`
+
+class User implements UserInfo {
+  name: string
+  age: number
+  hobby?: any[]
+  cardId: number
+  gender: String
+
+  constructor(name, age, cardId, gender) {
+    this.name = name
+    this.age = age
+    this.cardId = cardId
+    this.gender = gender
+  }
+
+  sayHello() {
+    console.log(this.name, this.age, this.gender + 'hello')
+  }
+
+  get _name() {
+    return this.name
+  }
+
+  set _name(name: string) {
+    this.name = name
+  }
 }
 
-const user: UserInfo = {
-  name: 'zs',
-  age: 30,
-  cardId: 350128
-}
-// user.cardId = 444444 // Cannot assign to 'cardId' because it is a read-only property.
-console.log(getUser(user))
+const u1 = new User('zs', 18, 222, 'male')
+
+u1._name='ss'
+u1.sayHello()
