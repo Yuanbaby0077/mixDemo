@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function getNode(node, id) {
+      console.log(node.id, node.childNodes, id)
+      if (!node) return null;
+      if (node.id === id) {
+        console.log('111')
+        return node
+      }
+      for(let i = 0; i < node.childNodes.length; i++) {
+        const subNode = getNode(node.childNodes[i], id)
+        if (subNode) return subNode
+      }
+      return null
+    }
+  </script>
+</head>
+<body>
+    <button onclick="getNode(document.body, 'd-cal')">
+      Node
+    </button>
+    <div id="d-cal">
+      Hello world !
+    </div>
+</body>
+</html>

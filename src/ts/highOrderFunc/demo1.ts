@@ -2,6 +2,10 @@ function abs(x) {
   return Math.abs(x)
 }
 
+function getTotalSalary(month, salary) {
+  return month * salary
+}
+
 function add(x, y, fn) {
   return fn(x) + fn(y)
 }
