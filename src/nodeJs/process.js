@@ -1,7 +1,6 @@
 const { spawn } = require('child_process');
 const path = require('path')
 
-console.log(process.platform)
 const ls = spawn('ls', ['-lh'], {
   cwd: path.resolve(__dirname, '', '../../src')
 })
