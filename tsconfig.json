@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // "module": "es2015",
+    "target": "es2015", // 用来指定ts被编译后的js版本
+    // "lib": ["dom"],
+    // "types": [] // 金庸自动引入@types包
+    "outDir": "src/ts/dist",
+    // "outFile": "src/ts/dist/app.js",
+    "allowJs": true,
+    "checkJs": true,
+    "removeComments": true
+  },
+  "include": [
+      // "src/**/*" // **/递归匹配任意子目录
+      "src/ts/**/*"
+  ],
+  "exclude": [
+      "node_modules" // 默认所有可见的@types包会在编译过程中被包含进来
+  ]
+}

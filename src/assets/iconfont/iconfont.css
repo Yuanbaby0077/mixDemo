@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1606222265733'); /* IE9 */
+  src: url('iconfont.eot?t=1606222265733#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQsAAsAAAAACNwAAAPgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDGgqEeIQmATYCJAMUCwwABCAFhG0HZBu2B8iemjxBgtkwNgCAhwkSRUPJeXhaa+/vzN45Yg2SaKSJJ5JJM6uUDCkTCinQvRHK/n1u9kKgQyNVTfW0onaqWviBAG2YkIqnIpKuKXTdzjU9rYhem7mjC1WU9D+Hi1vPA5vfslzmmFrUi6M4oMljbQoTGzfwRP0W9ZKJ5QB8zkontptAy5hFsK09h2JAKyODAvHE6zNBW1LIPdjQENdaZmaIV9BoFA2qEQAv8fvjD1aEFhTKBGSvnZvdOtj2id4bcHlBhpQkg7yeDsY8EuaBTJy1Gg7gaWAeruUZ1Kb7O2fBp2Gh4hNhnPYfHqGQZKIGRNBBzFow84k4meCTI1PwqZdLo0xk3QxBKUWtlULvANE0leNImyQJZYfyZau4M1otTRfPzMTMzsbOz8fPzRUALy6hFVedmUnrbfSI6e63nfWOV8m2pkFvPLbHOypxwGvwk85d6PeMpRovyDaSjulWbN5N3vF9FV5soxfXWzHY5In0fU022UPX3V1MYAOPI4kzD32A0M4m1cqjCPr8E38N2TRYYc/q8yZ7PIG4lz2oXkxD6/aOxXrtjRcAAmoBi2EVrT2gx8bgq+/h//8nlCppgpNntY88ik9N4cg9qtKQo65Wv7nPp++WvUGrau8rz/eiQ/xcKa+kmS+0O4X71sFaI4s39ssh2sL8ci/azc+N9sKzGnyXn6AV+61Cn0JYuEn3x8Y0+Ib5Kls3b96qwFYNsTERZ2DNW9vwHmflp/2n4rxneFqnNeHOysu5l4pz+JqeNs+x3d7uuOdpDEu0z7UTzOd22o2apV39XZ1krNtdJzd61img4m8oNygAqIbSbXxNPIf0rDoEUL1ITTjzV/yNxf/0/nTnTf+0qQE+3oRCRzWUYV6woWA08x9gjizIPpsoy+zmcoZrKm3fSV+BFnVTAbEMeL6OaHh0KqFhOIdC3SgkDeOIjJmHUtsC1DSsQsucvfPbBolwkR2BWTUAoc8VKPR4h6TPKCJjnkFpxDeo6QscWo7CfcW2yeCJnSLKlJCOySpkeFbI4ZhaIpL0KKTPNWeKRXaMi0OilXczy5csq4b3ohwkrjHGmqdfIUkcw4lCNrMH9kNms8BYRMGIWGmJQZIsG5Yu5doetIQVsoGwSYRkkiA6jCyFGDyWIAcny0uI2uujIHq5zDKJPXk9yjiIyIqvnrHcEstGIPYKckblPcs9Vnn0VpBIOAyOSJCNsQd0iJkGBAxLezcjhCVZwjDDZ7HBUqUYN1awZH9R9jWugBZyWxkqDMfUmAZzgN5zURTyF+daFrO8yJqRWzkk8nqDZKMJro53yHHItBqy+BwA') format('woff2'),
+  url('iconfont.woff?t=1606222265733') format('woff'),
+  url('iconfont.ttf?t=1606222265733') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1606222265733#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up-circle:before {
+  content: "\e665";
+}
+
+.icon-arrow-right-circle:before {
+  content: "\e666";
+}
+
+.icon-arrow-down:before {
+  content: "\e667";
+}
+
+.icon-ashbin:before {
+  content: "\e668";
+}
+

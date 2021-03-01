@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <script>
+      onload = function() {
+        for(let i = 0; i < document.images.length; i++) {
+          const img = document.images[i]
+          const rollover = img.getAttribute('data-rollover')
+          if (!rollover) continue
+          (new Image()).src = rollover
+          const rollout = img.src
+          // img.setAttribute('data-rollout', img.src)
+          img.onmouseover = function() {
+            this.src = this.getAttribute('data-rollover')
+          }
+          img.onmouseout = function() {
+            // this.src = this.getAttribute('data-rollout')
+            this.src = rollout
+          }
+        }
+      }
+      
+    </script>
+    <img src="../assets/img/1.jpeg" alt="" 
+      data-rollover="../assets/img/2.jpeg">
+
+
+</body>
+</html>
