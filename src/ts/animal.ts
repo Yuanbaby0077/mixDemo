@@ -1,6 +1,7 @@
 class Animal {
-  name: String
-  constructor(name) {
+  name: string
+
+  constructor(name: string) {
     this.name = name
   }
 
@@ -10,7 +11,7 @@ class Animal {
 }
 
 class Sheep extends Animal {
-  constructor(name) {
+  constructor(name: string) {
     super(name)
   }
 

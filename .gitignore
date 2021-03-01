@@ -4,3 +4,4 @@ node_modules
 RELEASE_NOTE*.md
 dist/*.js
 .vscode
+**/dist

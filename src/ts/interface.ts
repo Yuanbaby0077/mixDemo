@@ -15,7 +15,7 @@ class User implements UserInfo {
   cardId: number
   gender: String
 
-  constructor(name, age, cardId, gender) {
+  constructor(name: string, age: number, cardId: number, gender: string) {
     this.name = name
     this.age = age
     this.cardId = cardId

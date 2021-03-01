@@ -4,7 +4,7 @@ class Person {
     this.age = age
   }
 
-  get _name() {
+  get _name(): string {
     console.log(this.name)
     return this.name
   }
